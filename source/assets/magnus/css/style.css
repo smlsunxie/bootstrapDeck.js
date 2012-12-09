@@ -23,7 +23,7 @@
 
 body {
 	font-family: 'Droid Sans';
-	background: url(/stylesheets/img/bg2.jpg);
+	background: url(../img/bg2.jpg);
 	font-size: 16px;
 	color: #666;
 	padding: 10px 20px 0px 20px;
@@ -113,7 +113,7 @@ a {
 }
 
 #wrapper {
-	background: url(/stylesheets/img/bg-wrapper.jpg);
+	background: url(../img/bg-wrapper.jpg);
 	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.35);
 	   -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.35);
 		    box-shadow: 0px 1px 1px rgba(0,0,0,.35);
@@ -175,7 +175,7 @@ a {
 	color: #fff;
 	text-align: center;
 	text-shadow: 0px 1px 0px #b63001;
-	background: url(/stylesheets/img/orange.png);
+	background: url(../img/orange.png);
 	-webkit-box-shadow: 0px 1px 1px rgba(223,85,38,.35);
 	   -moz-box-shadow: 0px 1px 1px rgba(223,85,38,.35);
 		    box-shadow: 0px 1px 1px rgba(223,85,38,.35);
@@ -380,7 +380,7 @@ header {
 
 
 #page-title {
-	background: url(/stylesheets/img/bg-wrapper.jpg);
+	background: url(../img/bg-wrapper.jpg);
 	position: relative;
 	z-index: 1;
 	height: 100px;
@@ -476,11 +476,11 @@ header {
 }
 
 .image-overlay-link {
-	background-image: url(/stylesheets/img/overlay-icon-01.png);
+	background-image: url(../img/overlay-icon-01.png);
 }
 
 .image-overlay-zoom {
-	background-image: url(/stylesheets/img/overlay-icon-02.png);
+	background-image: url(../img/overlay-icon-02.png);
 }
 
 
@@ -590,14 +590,14 @@ html[xmlns] .slides {display: block;}
 }
 
 .flex-direction-nav .flex-next {
-	background-image: url(/stylesheets/img/slider-control-right.png);
+	background-image: url(../img/slider-control-right.png);
 	background-repeat: no-repeat;
 	background-position: 52% 50%;
 }
 
 .flex-direction-nav .flex-prev {
 	margin-right: 36px;
-	background-image: url(/stylesheets/img/slider-control-left.png);
+	background-image: url(../img/slider-control-left.png);
 	background-repeat: no-repeat;
 	background-position: 48% 50%;
 }
@@ -765,12 +765,12 @@ html[xmlns] .slides {display: block;}
 }
 
 .ico-color {
-	background-image: url("/stylesheets/img/icons/orange/glyphicons.png");
+	background-image: url("../img/icons/orange/glyphicons.png");
 	opacity: 1;
 }
 
 .mini-color {
-  background-image: url("/stylesheets/img/icons/orange/glyphicons-mini.png");
+  background-image: url("../img/icons/orange/glyphicons-mini.png");
   opacity: 1;
 }
 
@@ -997,7 +997,7 @@ input[type="button"] {
 }
 
 .testimonials-bg {
-	background: url(/stylesheets/img/testimonials-bg.png) no-repeat;
+	background: url(../img/testimonials-bg.png) no-repeat;
 	margin-top: -1px;
 	display: block;
 	width: 200px;
@@ -1040,14 +1040,14 @@ input[type="button"] {
 }
 
 .mr-rotato-next {
-	background: url(/stylesheets/img/testimonials-right-01.png) no-repeat 50%;
+	background: url(../img/testimonials-right-01.png) no-repeat 50%;
 	background-color: #fff;
 	right: -1px;
 	z-index: 6;
 }
 
 .mr-rotato-prev {
-	background: url(/stylesheets/img/testimonials-left-01.png) no-repeat 50%;
+	background: url(../img/testimonials-left-01.png) no-repeat 50%;
 	background-color: #fff;
 	right: 21px;
 	-webkit-box-shadow:  3px 0px 0px 0px #fff;
@@ -1056,11 +1056,11 @@ input[type="button"] {
 }
 
 .mr-rotato-next:hover {
-	background: url(/stylesheets/img/testimonials-right-02.png) no-repeat 50%;
+	background: url(../img/testimonials-right-02.png) no-repeat 50%;
 }
 
 .mr-rotato-prev:hover {
-	background: url(/stylesheets/img/testimonials-left-02.png) no-repeat 50%;
+	background: url(../img/testimonials-left-02.png) no-repeat 50%;
 }
 
 .mr-rotato-prev:hover,
@@ -1930,21 +1930,21 @@ li.current {
 	margin: 5px 0;
 }
 
-.check_list li {background: url(/stylesheets/img/icons/list/orange/list_check.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
-.plus_list  li {background: url(/stylesheets/img/icons/list/orange/list_plus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
-.minus_list  li {background: url(/stylesheets/img/icons/list/orange/list_minus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
-.star_list  li {background: url(/stylesheets/img/icons/list/orange/list_star.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.arrow_list  li {background: url(/stylesheets/img/icons/list/orange/list_arrow.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.square_list  li {background: url(/stylesheets/img/icons/list/orange/list_square.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.circle_list  li {background: url(/stylesheets/img/icons/list/orange/list_circle.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.cross_list  li {background: url(/stylesheets/img/icons/list/orange/list_cross.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.check_list li {background: url(../img/icons/list/orange/list_check.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.plus_list  li {background: url(../img/icons/list/orange/list_plus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.minus_list  li {background: url(../img/icons/list/orange/list_minus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.star_list  li {background: url(../img/icons/list/orange/list_star.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.arrow_list  li {background: url(../img/icons/list/orange/list_arrow.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.square_list  li {background: url(../img/icons/list/orange/list_square.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.circle_list  li {background: url(../img/icons/list/orange/list_circle.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.cross_list  li {background: url(../img/icons/list/orange/list_cross.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
 
 
 /* Footer
 ====================================================================== */
 #footer-menu {
 	height: 50px;
-	background: url(/stylesheets/img/fbg.jpg);
+	background: url(../img/fbg.jpg);
 	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.35);
 	   -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.35);
 		    box-shadow: 0px 1px 1px rgba(0,0,0,.35);
@@ -1958,7 +1958,7 @@ li.current {
 	margin: 5px;
 	height: 36px;
 	width: 36px;
-	background: #fcfcfc url(/stylesheets/img/arrow.png);
+	background: #fcfcfc url(../img/arrow.png);
 	background-repeat: no-repeat;
 	background-position: 66% 50%;
 	opacity: .1;
@@ -2060,7 +2060,7 @@ li.current {
 	height: 30px;
 	display: block;
 	background-color: #f16529;
-	background-image: url(/stylesheets/img/scroll-top-top.png);
+	background-image: url(../img/scroll-top-top.png);
 	background-repeat: no-repeat;
 	background-position: 50%;
 	-webkit-transition: all 0.1s ease-in-out;
@@ -2074,7 +2074,7 @@ li.current {
 
 #footer {
 	margin-top: 20px;
-	background: url(/stylesheets/img/fbg5.jpg);
+	background: url(../img/fbg5.jpg);
 	color: #fcfcfc !important;
 	padding: 40px 0px;
 	z-index: 1;
@@ -2253,7 +2253,7 @@ form#newsletter input[type=submit] {
 #twitter b a, 
 #twitter b a:hover {color: #666; font-weight:bold}
 #twitter li {
-	background: url(/stylesheets/img/icons/twitter.png) no-repeat 0% 50%;
+	background: url(../img/icons/twitter.png) no-repeat 0% 50%;
 	padding-left: 40px;
 	line-height: 18px; margin: 2px 0 12px 0;
 	}
