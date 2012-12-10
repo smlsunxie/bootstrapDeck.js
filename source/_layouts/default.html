@@ -69,7 +69,11 @@
 	<div id="wrapper">	
 		<div class="container">
 	    	<div class="sidebar row">
-				{% include_sidebar site.blog_index_sidebar %}
+				{% if site.blog_index_asides.size %}
+				  {% include_array blog_index_asides %}
+				{% else %}
+			    {% include_array default_asides %}
+			  {% endif %}
 	   	 	</div>
    	 	</div>
   	</div>

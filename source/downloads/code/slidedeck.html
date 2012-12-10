@@ -63,12 +63,12 @@ layout: default
     {% include custom/after_slides.html %}
   </article>
 </div>
-{% unless page.sidebar == false or site.default_sidebar == false %}
+{% unless page.sidebar == false %}
 <aside class="sidebar">
-  {% if page.sidebar == nil or page.sidebar == 'collapse' %}
-    {% include_sidebar site.page_sidebar %}
-  {% else %}
-    {% include_sidebar %}
-  {% endif %}
+    {% if site.blog_index_asides.size %}
+      {% include_array blog_index_asides %}
+    {% else %}
+      {% include_array default_asides %}
+    {% endif %}
 </aside>
 {% endunless %}
